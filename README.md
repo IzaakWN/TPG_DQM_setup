@@ -7,8 +7,10 @@ Lastly there are some scripts for testing the instalation which should be run in
 ### Instalation
 To install the TPG DQM environment you should run in your working directory:
 ```bash
-./cmssw_setup.sh
-./tpg_packages_install.sh
+git clone git@github.com:MijaToka/TPG_DQM_setup.git
+cd TPG_DQM_setup/
+source ./cmssw_setup.sh
+source ./tpg_packages_install.sh
 ```
 Or go line by line running the script code.
 
