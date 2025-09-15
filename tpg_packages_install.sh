@@ -12,7 +12,7 @@ pushd $CMSSW_BASE/src
     # hgcal-comm with the module indexer chaged
     echo HGCalCommissioning >> .gitignore
     echo Geometry/HGCalMapping/data >> .gitignore
-    git clone https://gitlab.cern.ch/mtokarev/hgcal-comm.git -b up2date/dev-mtokarev-trigger HGCalCommissioning
+    git clone https://gitlab.cern.ch/mtokarev/hgcal-comm.git -b up2date/dev-metoarev-trigger HGCalCommissioning
     #update cell map
     git clone https://github.com/RSalvatico/Geometry-HGCalMapping.git Geometry/HGCalMapping/data -b CalibSurrOffsetMap
     pushd Geometry/HGCalMapping/data
